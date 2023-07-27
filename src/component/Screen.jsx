@@ -4,7 +4,7 @@ import{Textfit} from'react-textfit';
 
 const Screen = ({value}) => {
     return (
-        <Textfit className='screen' model='single' max={70}>
+        <Textfit className='screen' model='single' max={60}>
                 {value}
         </Textfit>
     );
